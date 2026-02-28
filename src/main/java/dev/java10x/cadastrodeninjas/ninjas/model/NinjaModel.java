@@ -15,6 +15,9 @@ public class NinjaModel {
     private String email;
     private int age;
     private List<MissionModel> missionModelList;
+    @ManyToOne
+    @JoinColumn(name = "missions_id")
+    private MissionModel missions;
 
     public NinjaModel() {
     }
