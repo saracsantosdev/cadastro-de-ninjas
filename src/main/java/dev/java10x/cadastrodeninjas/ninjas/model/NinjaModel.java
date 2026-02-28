@@ -1,6 +1,9 @@
 package dev.java10x.cadastrodeninjas.ninjas.model;
 
+import dev.java10x.cadastrodeninjas.missions.model.MissionModel;
 import jakarta.persistence.*;
+
+import java.util.List;
 
 @Entity
 @Table(name="tb_cadastro")
@@ -11,6 +14,7 @@ public class NinjaModel {
     private String name;
     private String email;
     private int age;
+    private List<MissionModel> missionModelList;
 
     public NinjaModel() {
     }
