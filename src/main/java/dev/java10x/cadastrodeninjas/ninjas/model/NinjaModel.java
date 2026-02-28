@@ -1,4 +1,4 @@
-package dev.java10x.cadastrodeninjas.model;
+package dev.java10x.cadastrodeninjas.ninjas.model;
 
 import jakarta.persistence.*;
 
